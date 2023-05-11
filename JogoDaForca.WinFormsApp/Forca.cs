@@ -11,7 +11,7 @@ namespace JogoDaForca.WinFormsApp
 
         public string currentWord = "";
         public string palavraSecreta { get; set; }
-        public  List<char> letrasEncontradas { get; set; }  
+        public  char[] letrasEncontradas { get; set; }  
         private int erros { get; set; }
         public string mensagemFinal { get; set; }
 

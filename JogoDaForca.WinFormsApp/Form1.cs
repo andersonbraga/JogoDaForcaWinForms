@@ -37,7 +37,7 @@ namespace JogoDaForca.WinFormsApp
                 ((Button)sender).Enabled = false;
                
 
-                forca.ApresentarMensagem("As letras encontradas até agora são: " + forca.PalavraParcial);
+               
 
               
             
@@ -45,10 +45,10 @@ namespace JogoDaForca.WinFormsApp
 
         private void VisualizarPalavra()
         {
-            char palpite = Convert.ToChar(forca.currentWord);
+            
 
             txtPalavraEscolhida.Text = forca.ObterPalavraSecreta();
-            forca.JogadorAcertou(palpite);
+           
 
 
 
